@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 6</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link href="CSS/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md custom-nav">
+      <div class="container-fluid">
+        <a href="./index.html">
+          <img src="assets/images/logo.png" alt="POWER web" width="100" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarProject6">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarProject6">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="./index.html">home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./portfolio.html">projecten</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header-box text-center">
+      <h1 class="display-3">Project 6</h1>
+    </header>
+
+    <div class="container">
+      <div class="row g-4">
+        <main class="col-md-8 col-12 main-box">
+            <section class="row mb-4">
+                <article class="col-12">
+                    <figure class="mb-3">
+                        <img 
+                            src="assets/images/project6.jpg"
+                            alt="Datakabels en netwerk infrastructuur in data center"
+                            class="img-fluid rounded shadow-sm">
+                        <figcaption class="mt-1 text-muted" style="font-size:0.85rem;">
+                            Afbeelding: © Pixabay — rechtenvrije foto van datacenter kabels / netwerk infrastructuur.
+                        </figcaption>
+                    </figure>
+                <h2 class="fs-5 fw-bold text-uppercase mb-3">Project 6: Datacom & Netwerken</h2>
+                <h3 class="fw-bold mt-4">Korte omschrijving</h3>
+                <p>
+                    Dit project maakt deel uit van het olod <strong>Datacom & Netwerken</strong>, waarin de basisprincipes 
+                    van datacommunicatie en TCP/IP-netwerken centraal staan. We leerden het correcte netwerkvakjargon 
+                    toepassen, netwerkverkeer analyseren en communicatiestromen begrijpen binnen client-serveromgevingen.
+                </p>
+                <p>
+                    Daarnaast werden we voorbereid op het installeren, testen en troubleshooten van end-to-end communicatie 
+                    binnen een TCP/IP-gebaseerd netwerk. Een belangrijk onderdeel hierbij was het simuleren van 
+                    professionele bedrijfsnetwerken in <strong>Cisco Packet Tracer</strong>.
+                </p>
+                <h3 class="fw-bold mt-5">Projectdetails</h3>
+                <div class="accordion" id="projectAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#beschrijving">
+                            Projectbeschrijving
+                            </button>
+                        </h2>
+                        <div id="beschrijving" class="accordion-collapse collapse show" data-bs-parent="#projectAccordion">
+                            <div class="accordion-body">
+                            <p>
+                                Voor dit project configureerde ik een volledig werkende <strong>DHCP-server</strong> in Cisco Packet Tracer. 
+                                De DHCP-service moest automatisch correcte IP-adressen, DNS, gateway en subnetmaskers toewijzen 
+                                aan de clients in het netwerk.
+                            </p>
+                            <p>
+                                Na de configuratie werd de opstelling getest via de Packet Tracer 
+                                <strong>Assessment Tool</strong>, die controleert of alle instellingen technisch juist zijn.
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doelen">
+                            Doelstellingen
+                            </button>
+                        </h2>
+                        <div id="doelen" class="accordion-collapse collapse" data-bs-parent="#projectAccordion">
+                            <div class="accordion-body">
+                            <ul>
+                                <li>Begrijpen hoe DHCP werkt in een bedrijfsnetwerk</li>
+                                <li>Een DHCP-pool correct configureren</li>
+                                <li>Subnetting en IP-adresplanning toepassen</li>
+                                <li>Netwerksimulaties bouwen in Packet Tracer</li>
+                                <li>End-to-end connectiviteit analyseren en oplossen</li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tools">
+                            Tools & Technologieën
+                            </button>
+                        </h2>
+                        <div id="tools" class="accordion-collapse collapse" data-bs-parent="#projectAccordion">
+                            <div class="accordion-body">
+                            <ul>
+                                <li>Cisco Packet Tracer</li>
+                                <li>DHCP Server</li>
+                                <li>Routers & Switches</li>
+                                <li>IP-subnetting</li>
+                                <li>Client-serverarchitectuur</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="fw-bold mt-5">Resultaat</h3>
+                <p>
+                    De configuratie werd gevalideerd via de officiële Packet Tracer Assessment Tool.  
+                    Alle onderdelen werden correct uitgevoerd: gateway, DNS, startadres, adresbereik, subnetmasker en maximale clients.  
+                    Eindresultaat: <strong>8/8 punten</strong>.
+                </p>
+                <figure class="mt-3">
+                    <img src="assets/images/dhcp-resultaat.png"
+                        class="img-fluid rounded shadow-sm"
+                        alt="Cisco Packet Tracer DHCP Assessment Resultaat">
+                    <figcaption class="mt-1 text-muted" style="font-size:0.85rem;">
+                    Screenshot van de behaalde score in de Packet Tracer Assessment Tool.
+                    </figcaption>
+                </figure>
+                </article>
+            </section>
+        </main>
+        <aside class="col-md-4 col-12 p-3 aside-box">
+          <h2 class="fs-6 fw-bold text-uppercase mb-3">Contact</h2>
+          <p><strong>Email:</strong> <a href="mailto:wasim.vandessel@student.ap.be">wasim.vandessel@student.ap.be</a></p>
+          <p><strong>Telefoon:</strong> <a href="tel:+32484843579">+32 484 84 35 79</a></p>
+          <p><strong>Locatie:</strong> Antwerpen, België</p>
+          <ul class="list-inline socials mb-0 mt-3">
+            <li class="list-inline-item"><a href="https://github.com/MVPCreation" target="https://github.com/MVPCreation"><i class="bi bi-github"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/wasim-van-dessel-251437399/" target="https://www.linkedin.com/in/wasim-van-dessel-251437399/"><i class="bi bi-linkedin"></i></a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+
+    <footer class="footer text-center custom-footer mt-4">
+      &copy; <span id="year"></span> Wasim Van Dessel | 
+      <a href="https://github.com/MVPCreation" target="https://github.com/MVPCreation">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/wasim-van-dessel-251437399/" target="https://www.linkedin.com/in/wasim-van-dessel-251437399/">LinkedIn</a>
+    </footer>
+  </body>
+</html>
